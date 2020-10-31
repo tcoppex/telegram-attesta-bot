@@ -1,11 +1,15 @@
 # AttestaBot :fr:
 
-**AttestaBot** is a telegram bot to generate quick & retroactive certificates for
-the 2020 pandemic lockdown.
+**AttestaBot** is a telegram bot to generate quick & retroactive PDF certificates during
+the 2020 french pandemic lockdown.
 
 When it is online, you can find it [@attestabot](https://t.me/attestabot).
 
-![](https://i.imgur.com/xuRg8hQ.png)
+<p align="center">
+  <a href="https://i.imgur.com/xuRg8hQ.png">
+  <img src="https://i.imgur.com/xuRg8hQ.png" alt="drawing" height="400px"/>
+  </a>
+</p>
 
 ## Installation
 
@@ -28,16 +32,18 @@ This bot has 5 commands :
 * */cancel* to stop any current commands. 
 
 When you start the application you first need to generate a profile via the `/profile`
-command, then use either `/generate` or `/presto`.
+command, then use either `/generate` or `/presto` to generate your certificate.
+
+When the user ask for a non immediate timestamp (as by using the `/presto` command) a slight noise
+is add to time shift claim.. for organic lifeness and fun :leaves:
 
 ## Acknowledgement
 
 This bot is based on the Certificate PDF generator from @tdopierre and @Apoptoz :
 [AttestationNumeriqueCOVID-19](https://github.com/Apoptoz/AttestationNumeriqueCOVID-19)
 
-And heavily use the wonderful [python-telegram-bot](https://github.com/python-telegram-bot/python-telegram-bot).
+And heavily relied on the wonderful [python-telegram-bot](https://github.com/python-telegram-bot/python-telegram-bot).
 
 ## License
 
-AttestaBot is released under the *GNU General Public License v3.0*, mainly to somewhat ensure
-the non-use of the data processed by it :)
+*AttestaBot* is released under the **GNU General Public License v3.0**, mainly to assert the non-use of data processed by it :)
