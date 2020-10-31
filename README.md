@@ -22,6 +22,8 @@ python3 -m pip install -r requirements.txt
 python3 attestabot.py
 ```
 
+**Important** : You will need the `Helvetica.ttf` font installed on your system for it to work !
+
 ## Getting Started
 
 This bot has 5 commands :
