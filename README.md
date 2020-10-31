@@ -25,17 +25,17 @@ python3 attestabot.py
 ## Getting Started
 
 This bot has 5 commands :
-* */help* display the list of commands.
-* */profile* register your information for quick generation.
-* */generate* create a certificate with custom motives and timestamp.
-* */presto* create a one-click retroactive certificate for quick use.
-* */cancel* to stop any current commands. 
+* **/help** display the list of commands.
+* **/profile** register your information for quick generation.
+* **/generate** create a certificate with custom motives and timestamp.
+* **/presto** create a one-click retroactive certificate for quick use.
+* **/cancel** stop any current commands. 
 
 When you start the application you first need to generate a profile via the `/profile`
 command, then use either `/generate` or `/presto` to generate your certificate.
 
-When the user ask for a non immediate timestamp (as by using the `/presto` command) a slight noise
-is add to time shift claim.. for organic lifeness and fun :leaves:
+When the user ask for a non immediate timestamp (*eg. by using the `/presto` command*) a slight stochastic noise
+is added to time shift claim.. for organic lifeness and fun :leaves:
 
 ## Acknowledgement
 
